@@ -8,13 +8,13 @@ import 'provider_samples/provider_sample3/provider_sample3.dart';
 
 class Routes {
   static final route = {
-    DefaultPage.route: (_) => DefaultPage(),
-    BlocSample1.route: (_) => BlocSample1(),
-    BlocSample2.route: (_) => BlocSample2(),
-    BlocSample3.route: (_) => BlocSample3(),
-    ProviderSample1.route: (_) => ProviderSample1(),
-    ProviderSample2.route: (_) => ProviderSample2(),
-    ProviderSample3.route: (_) => ProviderSample3(),
+    DefaultPage.routeName: (_) => DefaultPage(),
+    BlocSample1.routeName: (_) => BlocSample1(),
+    BlocSample2.routeName: (_) => BlocSample2(),
+    BlocSample3.routeName: (_) => BlocSample3(),
+    ProviderSample1.routeName: (_) => ProviderSample1(),
+    ProviderSample2.routeName: (_) => ProviderSample2(),
+    ProviderSample3.routeName: (_) => ProviderSample3(),
   };
 
   static List<String> get routeList {
