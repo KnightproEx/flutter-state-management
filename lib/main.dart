@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'StateManagement',
         debugShowCheckedModeBanner: false,
-        initialRoute: DefaultPage.route,
+        initialRoute: DefaultPage.routeName,
         routes: Routes.route,
       ),
     );
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
 }
 
 class DefaultPage extends StatefulWidget {
-  static const route = '/';
+  static const routeName = '/';
 
   @override
   _DefaultPageState createState() => _DefaultPageState();

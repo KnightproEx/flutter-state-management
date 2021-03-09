@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../appbar.dart';
 
 class BlocSample1 extends StatelessWidget {
-  static const route = '/bloc_sample1';
+  static const routeName = '/bloc_sample1';
 
   @override
   Widget build(BuildContext context) {
